@@ -10,9 +10,9 @@ with open('flex_messages.json', 'r',encoding="utf-8") as f:
 
 # スコア情報を挿入する
 Score(question_id='q1', question=json.dumps(flex_messages['q1']),
-      answer='3', score=10).save()
+      answer='2', score=1).save()
 Score(question_id='q2', question=json.dumps(flex_messages['q2']),
-      answer='1', score=20).save()
+      answer='4', score=1).save()
 Score(question_id='q3', question=json.dumps(flex_messages['q3']),
-      answer='2', score=20).save()
+      answer='1', score=1).save()
 print('Done!')
