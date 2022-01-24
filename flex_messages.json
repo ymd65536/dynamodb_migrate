@@ -1,75 +1,159 @@
 {
-  "q1": {
+  "q1":{
     "type": "bubble",
     "direction": "ltr",
-    "hero": {
-      "type": "image",
-      "url": "https://1.bp.blogspot.com/-5S8rmtezagQ/UnyHakT62TI/AAAAAAAAajc/TsAKmkq0wIE/s400/nihonchizu_area.png",
-      "size": "full",
-      "aspectRatio": "1.51:1",
-      "aspectMode": "fit"
-    },
     "body": {
       "type": "box",
       "layout": "vertical",
       "contents": [
         {
-          "type": "text",
-          "text": "第1問",
-          "size": "xl",
-          "align": "start",
-          "contents": []
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "第1問",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "ELBをパブリックサブネットに配置しその後ろにEC2を配置することで、EC2インスタンス上に構成したWebサービスをインターネット上に公開しています。EC2の配置先として適切なサブネットのタイプはどれでしょうか？  ",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
         },
         {
-          "type": "text",
-          "text": "日本の首都はどこ？",
-          "contents": []
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "1.パブリックサブネット",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "xxl",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "2.プライベートサブネット",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "3.VPCエンドポイントが設定されたプライベートサブネット",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "4.オンプレとの専用線接続が設定されたプライベートサブネット",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            }
+          ]
         }
       ]
     },
     "footer": {
       "type": "box",
-      "layout": "vertical",
+      "layout": "horizontal",
       "contents": [
         {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "1：名古屋",
-            "text": "1"
-          },
-          "color": "#E76D30FF",
-          "style": "primary"
-        },
-        {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "2：大阪",
-            "text": "2"
-          },
-          "style": "primary"
-        },
-        {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "3：東京",
-            "text": "3"
-          },
-          "color": "#3085E7FF",
-          "style": "primary"
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "1",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "2",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "3",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "4",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
         }
       ]
     }
   },
-  "q2": {
+  "q2":{
     "type": "bubble",
     "direction": "ltr",
     "hero": {
       "type": "image",
-      "url": "https://off.tokyo/wp-content/uploads/2021/02/aws-logo.png",
-      "size": "full",
+      "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+      "size": "md",
       "aspectRatio": "1.51:1",
       "aspectMode": "fit"
     },
@@ -78,63 +162,153 @@
       "layout": "vertical",
       "contents": [
         {
-          "type": "text",
-          "text": "第2問",
-          "size": "xl",
-          "align": "start",
-          "contents": []
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "第2問",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "Amazon ECSを利用してマイクロサービス型の分散システムを構築しています。マイクロサービス1とマイクロサービス2に分割しており、マイクロサービス1の処理後にマイクロサービス2に処理が引き渡されます。この要件を満たすマイクロサービス間連携のアーキテクチャを選択してください。",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
         },
         {
-          "type": "text",
-          "text": "AWSのサーバーレスサービス、正しいのは？",
-          "wrap": true,
-          "contents": []
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "1.マイクロサービス1からSNSによるメッセージ通知を用いて、マイクロサービス2に連携する。",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "xxl",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "2.マイクロサービス1からLambda関数によるイベント処理を用いて、マイクロサービス2に連携する。",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "3.マイクロサービス1からAmazon SWFを用いて、マイクロサービス2に連携する。",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "4.マイクロサービス1からSQSによるキューイング処理を用いて、マイクロサービス2に連携する。",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            }
+          ]
         }
       ]
     },
     "footer": {
       "type": "box",
-      "layout": "vertical",
+      "layout": "horizontal",
       "contents": [
         {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "1：lambda",
-            "text": "1"
-          },
-          "color": "#E76D30FF",
-          "style": "primary"
-        },
-        {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "2：lamda",
-            "text": "2"
-          },
-          "style": "primary"
-        },
-        {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "3：lumada",
-            "text": "3"
-          },
-          "color": "#3085E7FF",
-          "style": "primary"
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "1",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "2",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "3",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "4",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
         }
       ]
     }
   },
-  "q3": {
+  "q3":{
     "type": "bubble",
     "direction": "ltr",
     "hero": {
       "type": "image",
-      "url": "https://3.bp.blogspot.com/-qsaDShPAY04/VvKZEEJtwQI/AAAAAAAA5Ew/7MqcDbc66fYG_n4b_8lnrjjrkcznnFcsA/s800/money_satsutaba.png",
-      "size": "full",
+      "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+      "size": "md",
       "aspectRatio": "1.51:1",
       "aspectMode": "fit"
     },
@@ -143,52 +317,142 @@
       "layout": "vertical",
       "contents": [
         {
-          "type": "text",
-          "text": "第3問",
-          "size": "xl",
-          "align": "start",
-          "contents": []
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "第3問",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "AWSは、DirectConnectというサービスを提供しています。DirectConnetの説明として正しいものは次のうちどれですか？",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
         },
         {
-          "type": "text",
-          "text": "新しい1万円札の顔は？",
-          "wrap": true,
-          "contents": []
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "1.自社オンプレミス環境とAWS環境を専用線で接続するネットワークサービス",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "xxl",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "2.オンプレミス環境とAWSをVPNで接続するネットワークサービス",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "3.GCP,AZUREのパブリッククラウドとAWSを専用線で接続するネットワークサービス",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "4.GCP,AZUREのパブリッククラウドとAWSをインターネットVPNで接続するネットワークサービス",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            }
+          ]
         }
       ]
     },
     "footer": {
       "type": "box",
-      "layout": "vertical",
+      "layout": "horizontal",
       "contents": [
         {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "1：福沢諭吉",
-            "text": "1"
-          },
-          "color": "#E76D30FF",
-          "style": "primary"
-        },
-        {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "2：渋沢栄一",
-            "text": "2"
-          },
-          "style": "primary"
-        },
-        {
-          "type": "button",
-          "action": {
-            "type": "message",
-            "label": "3：新渡戸稲造",
-            "text": "3"
-          },
-          "color": "#3085E7FF",
-          "style": "primary"
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "1",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "2",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "3",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "4",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
         }
       ]
     }
